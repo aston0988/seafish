@@ -1,0 +1,82 @@
+.header {
+    display: flex;
+    background-color: rgb(178, 117, 235);
+}
+.header .logo{
+    padding: 10px 20px;
+}
+.header nav{
+    text-align: right;
+    width: 100%;
+    font-size: 0;
+}
+
+.header nav a{
+    font-size: 16px;
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 100px;
+    padding: 0 100px;
+
+}
+.header nav a:hover{
+    background-color: blue;
+    transition: all 1s;
+}
+.banner .tab{
+    background-color: red;
+    color: aliceblue;
+    padding: 10px 10px;
+    margin: 20px;
+    position: absolute;
+    border-radius: 10px;
+}
+.warp{
+    width: 100%;
+    margin: auto;
+
+}
+.product h2{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin: 40px 0 40px 0;
+}
+
+
+.product .warp{
+    display: flex;
+}
+.product .warp .item{
+    margin: 0 140px 180px;
+    
+}
+.product p{
+    text-align: center;
+    font-size: 32px;
+}
+
+.footer{
+    background-color: blueviolet;
+    height: auto;
+    color: aliceblue;
+    padding-left: 150px;
+}
+
+.footer h2{
+    padding: 20px 0;
+}
+.footer ul {
+    
+    line-height: 40px;
+    
+}
+
+.copyright {
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
