@@ -66,11 +66,34 @@
 
 .footer h2{
     padding: 20px 0;
+
 }
+.footer .warp{
+    
+    display: flex;
+    padding: 0;
+}
+
 .footer ul {
     
-    line-height: 40px;
+    line-height: 60px;
     
+}
+.scroll{
+    width: 1450px;
+    padding: 50px;
+    text-align:right;
+}
+
+
+.scroll a {
+    border-width: 2px;
+    border-style:solid;
+    border-color:aliceblue;
+    text-decoration: none;
+    color: azure;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
 }
 
 .copyright {
